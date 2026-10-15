@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Focus Khulna — Admission Coaching (Demo)</title>
+  <meta name="description" content="Independent concept demo for a professional admission coaching website for Focus Khulna. Replace contact info in /assets/js/config.js"> 
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="#">Focus Khulna <span class="tag">(Demo)</span></a>
+      <nav class="nav" id="mainNav">
+        <button id="navToggle" aria-label="Toggle navigation">☰</button>
+        <ul class="nav-list">
+          <li><a href="#home" data-i18n="home">Home</a></li>
+          <li><a href="#courses" data-i18n="courses">Courses</a></li>
+          <li><a href="#admission" data-i18n="admission">Admission</a></li>
+          <li><a href="#results" data-i18n="results">Results</a></li>
+          <li><a href="#faq" data-i18n="faq">FAQ</a></li>
+          <li><a href="#contact" data-i18n="contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="lang-switch">
+        <button id="langEn" class="active">EN</button>
+        <button id="langBn">বাংলা</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <h1 data-i18n="headline">Professional Admission Coaching — Focus Khulna (Demo)</h1>
+      <p data-i18n="subhead">A responsive, bilingual concept demo. Replace config in assets/js/config.js with real contact details.</p>
+      <div class="cta">
+        <a href="#courses" class="btn" data-i18n="browse">Browse Courses</a>
+        <a href="#contact" class="btn outline" data-i18n="enquire">WhatsApp Enquiry</a>
+      </div>
+    </section>
+
+    <section id="courses" class="container section">
+      <h2 data-i18n="courses">Courses</h2>
+      <div id="coursesGrid" class="grid"></div>
+    </section>
+
+    <section id="admission" class="container section">
+      <h2 data-i18n="admission">Admission Information</h2>
+      <div id="admissionContent">
+        <p data-i18n="admission_intro">Admission details, eligibility, deadlines, and schedule are shown here. Update content in config.js.</p>
+        <ul id="admissionList"></ul>
+      </div>
+    </section>
+
+    <section id="results" class="container section">
+      <h2 data-i18n="results">Results</h2>
+      <p data-i18n="results_note">Placeholder for student results. Do not list real students or claims in this demo.</p>
+      <div id="resultsGrid" class="grid small"></div>
+    </section>
+
+    <section id="faq" class="container section">
+      <h2 data-i18n="faq">Frequently Asked Questions</h2>
+      <div id="faqList"></div>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2 data-i18n="contact">Contact & Enquiry</h2>
+      <div class="columns">
+        <div>
+          <h3 data-i18n="visit">Visit / Map</h3>
+          <div id="mapWrap" class="map"></div>
+          <p id="addressLine"></p>
+        </div>
+        <div>
+          <h3 data-i18n="whatsapp">WhatsApp Enquiry</h3>
+          <form id="waForm">
+            <label><span data-i18n="name">Name</span><input type="text" id="name" required></label>
+            <label><span data-i18n="phone">Phone</span><input type="tel" id="phone" required placeholder="8801XXXXXXXXX"></label>
+            <label><span data-i18n="message">Message</span><textarea id="message" rows="4"></textarea></label>
+            <div class="form-actions">
+              <button type="submit" class="btn" data-i18n="send">Send to WhatsApp</button>
+              <button type="button" id="clearBtn" class="btn outline" data-i18n="clear">Clear</button>
+            </div>
+            <p id="waNotice" class="note"></p>
+          </form>
+
+          <h3 data-i18n="other">Other Contacts</h3>
+          <ul id="otherContacts"></ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Focus Khulna — Independent concept demo. Not an official site. Update contact data in <code>assets/js/config.js</code>.</p>
+      <p><a href="/robots.txt">robots.txt</a> · <a href="/sitemap.xml">sitemap.xml</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
