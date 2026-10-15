@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
+# The sitemap path is relative; replace with an absolute URL after publishing if your host requires it.
 Sitemap: /sitemap.xml

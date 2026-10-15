@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace the placeholder URL with your published site URL after enabling GitHub Pages. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.io/abidemon0242/focus-khulna/</loc>
+    <loc>https://REPLACE_WITH_PUBLISHED_URL/</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://github.io/abidemon0242/focus-khulna/index.html</loc>
+    <loc>https://REPLACE_WITH_PUBLISHED_URL/index.html</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
